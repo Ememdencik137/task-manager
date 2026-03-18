@@ -1,0 +1,25 @@
+# Зависимости - не загружаем node_modules, они очень тяжёлые
+node_modules/
+package-lock.json
+
+# Логи
+*.log
+npm-debug.log*
+
+# IDE - настройки редактора
+.vscode/
+.idea/
+.vs/
+
+# Env файлы - здесь могут быть пароли и ключи
+.env
+.env.local
+.env.production
+
+# Сборки - готовые файлы, которые можно пересобрать
+dist/
+build/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
